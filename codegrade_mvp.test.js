@@ -1,6 +1,6 @@
 const request = require('supertest')
-const server = require('./api/server')
-const User = require('./api/users/model')
+const server = require('./server')
+const User = require('./users/model')
 
 test('[0] sanity check', () => {
   expect(true).not.toBe(false)
